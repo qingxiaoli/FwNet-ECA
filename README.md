@@ -24,7 +24,7 @@ The data used for this research can be accessed via the links in the `data/data_
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/~.git
+    git clone https://github.com/yourusername/FwNet-ECA.git
     cd your-repo
     ```
 
@@ -37,11 +37,11 @@ The data used for this research can be accessed via the links in the `data/data_
 
 #### Command-Line Arguments
 
-- `--num_classes`: Number of classes in the dataset (default: 102).
+- `--num_classes`: Number of classes in the dataset (default: 1000).
 - `--epochs`: Number of training epochs (default: 100).
 - `--batch-size`: Batch size for training (default: 64).
-- `--lr`: Learning rate (default: 0.00005).
-- `--data-path`: Path to the dataset (default: `E:\\flowers`).
+- `--lr`: Learning rate (default: 0.0005).
+- `--data-path`: Path to the dataset (default: ``).
 - `--weights`: Path to the pre-trained weights file.
 - `--weights_dir`: Directory to save the weights.
 - `--logdir`: Directory for TensorBoard logs.
