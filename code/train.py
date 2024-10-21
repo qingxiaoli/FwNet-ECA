@@ -148,18 +148,18 @@ if __name__ == '__main__':
     parser.add_argument('--num_classes', type=int, default=102)
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--batch-size', type=int, default=64)
-    parser.add_argument('--lr', type=float, default=0.00005)
+    parser.add_argument('--lr', type=float, default=0.0005)
 
 
     parser.add_argument('--data-path', type=str,
-                        default="E:\\flowers")
+                        default="")
 
     # weights_dir
-    parser.add_argument('--weights', type=str, default='C:\\Users\\Admin\\Desktop\\test_fwnet\\model-20-train-0.8275-val-0.9398.pth', help='the path of weights')
-    parser.add_argument('--weights_dir', type=str, default='C:\\Users\\Admin\\Desktop\\test_fwnet', help='weights save dir')
+    parser.add_argument('--weights', type=str, default='', help='the path of weights')
+    parser.add_argument('--weights_dir', type=str, default='', help='weights save dir')
     
     # tensorboard_dir
-    parser.add_argument('--logdir', type=str, default='C:\\Users\\Admin\\Desktop\\test_fwnet', help='tensorboard log dir')
+    parser.add_argument('--logdir', type=str, default='', help='tensorboard log dir')
     
 
     parser.add_argument('--freeze-layers', type=bool, default=False, help='if freeze not head layers')
