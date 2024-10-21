@@ -1,0 +1,9 @@
+torch
+torchvision
+timm
+tensorboard
+os
+sys
+json
+tqdm
+PIL
