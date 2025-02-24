@@ -20,18 +20,6 @@ The data used for this research can be accessed via the links in the `data/data_
 - **Pre-trained Weights**: Allows loading of pre-trained weights to fine-tune the model or continue training from a checkpoint.
 - **Layer Freezing**: Option to freeze certain layers of the model during training.
 
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/FwNet-ECA.git
-    cd your-repo
-    ```
-
-2. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 ### Usage
 
