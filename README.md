@@ -23,7 +23,7 @@ The data used for this research can be accessed via the links in the `data/data_
 
 ### Usage
 
-#### Command-Line Arguments
+#### Arguments setting
 
 - `--num_classes`: Number of classes in the dataset (default: 1000).
 - `--epochs`: Number of training epochs (default: 100).
@@ -37,7 +37,3 @@ The data used for this research can be accessed via the links in the `data/data_
 - `--if_scheduler`: Whether to use a learning rate scheduler (default: True).
 - `--device`: Device to use for training (default: `cuda:0`).
 
-#### Example Command
-
-```sh
-python train.py --data-path /path/to/dataset --epochs 50 --batch-size 32 --lr 0.001 --logdir ./logs --weights ./weights/model.pth
